@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.924), rgba(29, 29, 29, 0.575)), url(./img/bg.jpg); */
+    /* background-image: url(./img/nfbgwide.jpg); */
+    background-color: #1b1b1b;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-cover img{
+        display: block;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+}
+
+.header{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.header li{
+    color: #ffffff;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.header li a{
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 0.8%;
+}
+
+.header li a:hover{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+    background-color: #ffffff;
+}
+
+.main{
+    margin-top: 180px;
+    margin-left: 50px;
+}
+
+.main h1{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+.main h1 span{
+    text-transform: uppercase;
+    font-size: 120px;
+    font-weight: 700;
+    background-color: yellow;
+    color: black;
+    padding-left: 20px;
+    letter-spacing: 5px;
+    line-height: 180px;
+    text-align: center;
+}
+
+.main p{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    text-align: left;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+}
+
+.musicplayer{
+    display: flex;
+    margin-top: -32%;
+    margin-left: 40%;
+    margin-bottom: 32%;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.924), rgba(29, 29, 29, 0.575)), url(./img/bg.jpg); */
+        background-color: #1b1b1b;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .header{
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    
+    .header li{
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+
+    .header li a{
+        text-decoration: none;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .header li a:hover{
+        text-decoration: none;
+        color: #00d9ff;
+        transition: 0.5s;
+    }
+    
+    .main{
+        height: 10%;
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-left: 5%;
+    }
+    
+    .main h1{
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .main h1 span{
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 700;
+        background-color: yellow;
+        color: black;
+        padding-left: 20px;
+        letter-spacing: 20px;
+        line-height: 60px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .main p{
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 100px;
+        text-align: left;
+        word-spacing: 2px;
+        line-height: 25px;
+        margin-left: 15%;
+        font-size: 13px;
+        margin-right: 15%;
+        margin-bottom: 15%;
+    }
+
+    .musicplayer{
+        margin-top: -32%;
+        margin-left: 10%;
+    }
+}
